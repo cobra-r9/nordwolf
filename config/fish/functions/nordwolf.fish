@@ -21,7 +21,6 @@ function nordwolf
             echo "  (no args)                  cd into ~/.config/nordwolf"
             echo "  deps <args>                run deps.sh"
             echo "  link-config <args>         run config-linker.sh"
-            echo "  link-local <args>          run local-linker.sh"
             echo "  srcrec <args>              run srcrec.sh"
             echo "  tasker <args>              run tasker.sh"
             echo "  help                       show this message"
@@ -32,9 +31,6 @@ function nordwolf
 
         case link-config
             bash $INSTALLER/config-linker.sh $argv[2..]
-
-        case link-local
-            bash $INSTALLER/local-linker.sh $argv[2..]
 
         case srcrec
             bash $SUBCMD/srcrec.sh $argv[2..]

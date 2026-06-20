@@ -92,7 +92,7 @@ _link_verified "$INSTALLER/config-linker.sh"
 
 # ── 7. Link local ─────────────────────────────────────────────────────────────
 section "Local Symlinks"
-_link_verified "$INSTALLER/local-linker.sh"
+bash "$INSTALLER/local-linker.sh"
 
 section "Set Wallpaper"
 mkdir -p "$HOME/Pictures"

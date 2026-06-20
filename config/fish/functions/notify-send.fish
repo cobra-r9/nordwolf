@@ -1,5 +1,4 @@
 #!/bin/fish
-function notify-send
-  xdo raise -N "qs-notify"
-  /usr/bin/notify-send $argv 
+function runc
+    make -f "~/.Makefile-default" SRC="$argv[1]"
 end
