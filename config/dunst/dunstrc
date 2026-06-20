@@ -1,0 +1,99 @@
+# ╔══════════════════════════════════════╗
+# ║         dunstrc — nord theme         ║
+# ╚══════════════════════════════════════╝
+
+[global]
+    # ── Position ──────────────────────────
+    monitor          = 0
+    follow           = none
+    origin           = top-right 
+    offset           = (10, 34)
+
+    # ── Geometry ──────────────────────────
+    width            = (0, 320)
+    height           = (0, 120)
+    notification_limit = 5
+    gap_size         = 6
+    corner_radius    = 6
+
+    # ── Frame ─────────────────────────────
+    frame_width      = 1
+    frame_color      = "#4C566A"
+    separator_height = 0
+    separator_color  = frame
+
+    # ── Padding ───────────────────────────
+    padding          = 14
+    horizontal_padding = 16
+    text_icon_padding  = 12
+
+    # ── Progress Bar ──────────────────────
+    progress_bar              = true
+    progress_bar_height       = 6
+    progress_bar_frame_width  = 0
+    progress_bar_min_width    = 288
+    progress_bar_max_width    = 288
+    progress_bar_corner_radius = 3
+
+    # ── Typography ────────────────────────
+    font             = JetBrains Mono 8 
+    line_height      = 2
+    markup           = full
+    format           = <b>%s</b>\n%b
+    alignment        = left
+    vertical_alignment = center
+    ellipsize        = end
+    ignore_newline   = no
+
+    # ── Icons ─────────────────────────────
+    icon_position              = left
+    min_icon_size              = 20
+    max_icon_size              = 36
+    enable_recursive_icon_lookup = true
+
+    # ── Behaviour ─────────────────────────
+    sort              = yes
+    idle_threshold    = 120
+    show_age_threshold = -1
+    stack_duplicates  = true
+    hide_duplicate_count = false
+    show_indicators   = no
+    sticky_history    = yes
+    history_length    = 20
+    always_run_script = true
+    scale             = 0
+
+    # ── Mouse ─────────────────────────────
+    mouse_left_click   = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click  = close_all
+
+    # ── Misc ──────────────────────────────
+    browser    = /usr/bin/xdg-open
+    title      = Dunst
+    class      = Dunst
+
+# ── Urgency: Low ──────────────────────────
+[urgency_low]
+    timeout      = 3
+    background   = "#2E3440"
+    foreground   = "#D8DEE9"
+    frame_color  = "#3B4252"
+    highlight    = "#88C0D0"
+
+# ── Urgency: Normal ───────────────────────
+[urgency_normal]
+    timeout      = 6
+    background   = "#2E3440"
+    foreground   = "#E5E9F0"
+    frame_color  = "#4C566A"
+    highlight    = "#88C0D0"
+
+# ── Urgency: Critical ─────────────────────
+[urgency_critical]
+    timeout      = 0
+    background   = "#2E3440"
+    foreground   = "#ECEFF4"
+    frame_color  = "#BF616A"
+    highlight    = "#BF616A"
+

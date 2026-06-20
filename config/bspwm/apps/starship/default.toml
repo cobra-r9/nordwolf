@@ -1,0 +1,83 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+format = """
+[░▒▓](fg:#243140)\
+[ 󰣇 ](bg:#243140 fg:#9bcbff)\
+[](fg:#243140 bg:#3b4857)\
+$directory\
+[](fg:#3b4857 bg:#526070)\
+$git_branch\
+$git_status\
+[](fg:#526070 bg:#6b7889)\
+$nodejs\
+$rust\
+$golang\
+$php\
+[](fg:#6b7889 bg:#8492a4)\
+$time\
+[](fg:#8492a4)\
+\n$character"""
+
+scan_timeout = 500
+command_timeout = 2000
+
+[directory]
+style = "fg:#9bcbff bg:#3b4857"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = "󰉏 "
+
+[git_branch]
+symbol = "󰘬"
+style = "bg:#526070"
+format = '[[ $symbol $branch ](fg:#6ab0f5 bg:#526070)]($style)'
+
+[git_status]
+style = "bg:#526070"
+format = '[[($all_status$ahead_behind )](fg:#6ab0f5 bg:#526070)]($style)'
+conflicted = "󰞇 "
+ahead = "󰁝${count} "
+behind = "󰁅${count} "
+diverged = "󰹺 "
+untracked = "󰄱 "
+stashed = "󰆓 "
+modified = "󰷈 "
+staged = "󰐕 "
+renamed = "󰑕 "
+deleted = "󰮉 "
+
+[nodejs]
+symbol = "󰎙"
+style = "bg:#2f3033"
+format = '[[ $symbol ($version) ](fg:#4c95d9 bg:#2f3033)]($style)'
+
+[rust]
+symbol = "󱘗"
+style = "bg:#2f3033"
+format = '[[ $symbol ($version) ](fg:#4c95d9 bg:#2f3033)]($style)'
+
+[golang]
+symbol = "󰟓"
+style = "bg:#2f3033"
+format = '[[ $symbol ($version) ](fg:#4c95d9 bg:#2f3033)]($style)'
+
+[php]
+symbol = "󰌟"
+style = "bg:#2f3033"
+format = '[[ $symbol ($version) ](fg:#4c95d9 bg:#2f3033)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#8492a4"
+format = '[[  $time ](fg:#3b4857 bg:#8492a4)]($style)'
+
+[character]
+success_symbol = "[❯](bold fg:#4c95d9)"
+error_symbol = "[❯](bold fg:#ff5f5f)"
+vimcmd_symbol = "[❮](bold fg:#4c95d9)"

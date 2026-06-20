@@ -1,0 +1,188 @@
+// ~/.config/fastfetch/config.jsonc
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+    // image_backend="ascii", image_source="auto", ascii_distro="auto",
+    // ascii_colors=(distro), ascii_bold="on" -> fastfetch's default "auto"
+    // logo already does distro-colored ascii art bolded. Nothing to change.
+    "logo": {
+        "type": "auto",
+        "source": "auto"
+    },
+
+    "display": {
+        // separator=" 🢒"
+        "separator": " 🢒",
+
+        // memory_unit="mib" -> force MiB instead of auto-scaling to GiB.
+        // disk numbers stay auto-scaled (neofetch did the same — memory_unit
+        // only affects the memory function, not disk).
+        "size": {
+            "binaryPrefix": "iec"
+        },
+
+        // cpu_temp="C"
+        "temp": {
+            "unit": "C"
+        },
+
+        // memory_percent="on", disk_percent="on" -> plain "(NN%)" appended,
+        // no bar (neofetch never used the bar/infobar/barinfo display modes —
+        // cpu_display/memory_display/battery_display/disk_display were all "off").
+        "percent": {
+            "type": 1
+        }
+    },
+
+    "modules": [
+        // title_fqdn="off" -> fastfetch's default title is already short-form
+        "title",
+
+        // underline_enabled="on", underline_char="-" -> default separator module
+        "separator",
+
+        // prin "$(color 6)╭──────────── $(color 10)Software$(color 6) ────────────"
+        {
+            "type": "custom",
+            "format": "{#1;38;5;6}╭──────────── {#1;38;5;10}Software{#1;38;5;6} ────────────{#}"
+        },
+
+        // info "$(color 6)│ $(color 1) OS " distro
+        // distro_shorthand="off", os_arch="on"
+        {
+            "type": "os",
+            "key": "{#1;38;5;6}│ {#1;38;5;1} OS{#}",
+            "format": "{name} {version} {architecture}"
+        },
+
+        // info "$(color 6)│ $(color 2) KER" kernel
+        // kernel_shorthand="off" -> full "Linux x.x.x-..." string
+        {
+            "type": "kernel",
+            "key": "{#1;38;5;6}│ {#1;38;5;2} KER{#}"
+        },
+
+        // info "$(color 6)│ $(color 3) PKG" packages
+        // package_managers="on" -> show manager names per count
+        {
+            "type": "packages",
+            "key": "{#1;38;5;6}│ {#1;38;5;3} PKG{#}"
+        },
+
+        // info "$(color 6)│ $(color 4) SHL" shell
+        // shell_path="off", shell_version="on"
+        {
+            "type": "shell",
+            "key": "{#1;38;5;6}│ {#1;38;5;4} SHL{#}"
+        },
+
+        // info "$(color 6)│ $(color 5) TER" term
+        {
+            "type": "terminal",
+            "key": "{#1;38;5;6}│ {#1;38;5;5} TER{#}"
+        },
+
+        // info "$(color 6)│ $(color 6) WM " wm
+        {
+            "type": "wm",
+            "key": "{#1;38;5;6}│ {#1;38;5;6} WM{#} "
+        },
+
+        // info "$(color 6)│ $(color 1) SNG" song
+        // music_player="auto", song_format="%artist% - %title%",
+        // song_shorthand="off" -> single line "artist - title"
+        // NOTE: verify placeholder names with `fastfetch -h media-format`
+        {
+            "type": "media",
+            "key": "{#1;38;5;6}│ {#1;38;5;1} SNG{#}",
+            "format": "{artist} - {title}"
+        },
+
+        // info "$(color 6)│ $(color 2) LOC" locale
+        {
+            "type": "locale",
+            "key": "{#1;38;5;6}│ {#1;38;5;2} LOC{#}"
+        },
+
+        // prin "$(color 6)├──────────── $(color 10)Hardware$(color 6) ────────────"
+        {
+            "type": "custom",
+            "format": "{#1;38;5;6}├──────────── {#1;38;5;10}Hardware{#1;38;5;6} ────────────{#}"
+        },
+
+        // info "$(color 6)│ $(color 3) UPT" uptime
+        // uptime_shorthand="on" -> e.g. "2 days, 10 hours, 3 mins"
+        {
+            "type": "uptime",
+            "key": "{#1;38;5;6}│ {#1;38;5;3} UPT{#}"
+        },
+
+        // info "$(color 6)│ $(color 4) HST" model
+        {
+            "type": "host",
+            "key": "{#1;38;5;6}│ {#1;38;5;4} HST{#}"
+        },
+
+        // info "$(color 6)│ $(color 5) CPU" cpu
+        // speed_type="bios_limit", speed_shorthand="on", cpu_brand="on",
+        // cpu_speed="on", cpu_cores="logical", cpu_temp="C"
+        {
+            "type": "cpu",
+            "key": "{#1;38;5;6}│ {#1;38;5;5} CPU{#}",
+            "temp": true
+        },
+
+        // info "$(color 6)│ $(color 6) GPU" gpu
+        // gpu_brand="on", gpu_type="all"
+        {
+            "type": "gpu",
+            "key": "{#1;38;5;6}│ {#1;38;5;6} GPU{#}",
+            "detectionMethod": "auto"
+        },
+
+        // info "$(color 6)│ $(color 1) MEM" memory
+        {
+            "type": "memory",
+            "key": "{#1;38;5;6}│ {#1;38;5;1} MEM{#}"
+        },
+
+        // info "$(color 6)│ $(color 2) " disk
+        // disk_show=('/'), disk_subtitle="mount", disk_percent="on"
+        {
+            "type": "disk",
+            "key": "{#1;38;5;6}│ {#1;38;5;2} {#}",
+            "folders": ["/"]
+        },
+
+        // info "$(color 6)│ $(color 3) BA" battery
+        {
+            "type": "battery",
+            "key": "{#1;38;5;6}│ {#1;38;5;3} BA{#}"
+        },
+
+        // prin "$(color 6)╰──────── $(color 0)󰝤 $(color 1)󰝤 ... ─────────"
+        {
+            "type": "custom",
+            "format": "{#1;38;5;6}╰──────── {#1;38;5;0}󰝤 {#1;38;5;1}󰝤 {#1;38;5;2}󰝤 {#1;38;5;3}󰝤 {#1;38;5;4}󰝤 {#1;38;5;5}󰝤 {#1;38;5;6}󰝤 {#1;38;5;7}󰝤 {#1;38;5;6}─────────{#}"
+        },
+
+        // prin "$(color 7)　　　　　　　　　　　I $(color 1)Nix $(color 7)Arch"
+        {
+            "type": "custom",
+            "format": "{#1;38;5;7}　　　　　　　　　　　I {#1;38;5;1}Nix {#1;38;5;7}Arch{#}"
+        },
+
+        // info cols
+        // color_blocks="off" globally, but explicitly invoked via "info cols"
+        // block_width=3, block_range=(0 15), block_height=1
+        {
+            "type": "colors",
+            "block": {
+                "width": 3,
+                "range": [0, 15]
+            }
+        }
+    ]
+}
+
