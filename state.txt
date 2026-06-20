@@ -1,0 +1,133 @@
+.
+├── C
+│   ├── BSTExp
+│   │   ├── LICENSE
+│   │   ├── Makefile
+│   │   ├── readme.md
+│   │   └── src
+│   │       └── bst_recursive.c
+│   ├── Caesar-1
+│   │   ├── LICENSE
+│   │   ├── main.c
+│   │   └── readme.md
+│   ├── CTemplate
+│   │   ├── clean.sh
+│   │   ├── include
+│   │   │   └── extmath.h
+│   │   ├── LICENSE
+│   │   ├── Makefile
+│   │   ├── PKGBUILD
+│   │   ├── readme.md
+│   │   ├── src
+│   │   │   ├── extmath.c
+│   │   │   └── main.c
+│   │   └── writeups
+│   │       └── makefile.md
+│   ├── flake.lock
+│   ├── flake.nix
+│   ├── Init87
+│   │   ├── 404.html
+│   │   ├── about.md
+│   │   ├── assets
+│   │   │   └── css
+│   │   │       └── style.css
+│   │   ├── _config.yml
+│   │   ├── doubts.html
+│   │   ├── errors.html
+│   │   ├── Gemfile
+│   │   ├── index.md
+│   │   ├── _layouts
+│   │   │   ├── default.html
+│   │   │   └── post.html
+│   │   ├── LICENSE
+│   │   ├── memory
+│   │   │   └── part0
+│   │   │       ├── 0.0.md
+│   │   │       ├── 0.1.md
+│   │   │       ├── 0.2.md
+│   │   │       ├── 0.3.md
+│   │   │       └── 0.4.md
+│   │   ├── part0
+│   │   │   ├── 0.0.md
+│   │   │   ├── 0.1.md
+│   │   │   ├── 0.2.md
+│   │   │   ├── 0.6.md
+│   │   │   └── index.md
+│   │   ├── part1
+│   │   │   ├── 1.0.md
+│   │   │   ├── 1.1.md
+│   │   │   └── index.md
+│   │   ├── pathway
+│   │   │   ├── 01-basics.md
+│   │   │   ├── 02-pointers.md
+│   │   │   └── 03-file-ops.md
+│   │   └── _posts
+│   │       ├── 2026-04-20-printf-access-without-include.md
+│   │       ├── 2026-04-22-number-conversions.md
+│   │       ├── 2026-04-23-byte-addressing-and-ordering.md
+│   │       ├── 2026-05-05-doublefrees-danglingpointers-and-doubts.md
+│   │       ├── 2026-05-24-unistd-write-does-not-care-about-types.md
+│   │       ├── 2026-06-14-snprintf-analysis-doubts.md
+│   │       ├── 2026-06-18-fopen-file-not-found-error.md
+│   │       └── 2026-06-18-fwrite-failed-though-everything-seemed-right.md
+│   └── WAVSpec
+│       ├── LICENSE
+│       ├── readme.md
+│       ├── wavpcmv1.c
+│       └── wavpcmv1-writeup.md
+├── Dochub
+│   ├── Assembly
+│   │   ├── introduction-to-64bit-intel-assembly-programming.pdf
+│   │   ├── programming-ground-up-v1.pdf
+│   │   └── the-art-of-assembly-language-v2.pdf
+│   ├── Bash
+│   │   ├── bash-cookbook.pdf
+│   │   ├── learning-the-bash-shell-unix-shell-programming.pdf
+│   │   └── learning-the-bash-shell-v3.epub
+│   ├── C
+│   │   ├── beejs-guide-to-c-programming.pdf
+│   │   ├── c-programming-language-v2.pdf
+│   │   ├── effective-c-v3.pdf
+│   │   └── modern-c-v3.pdf
+│   ├── Computer-Systems
+│   │   ├── computer-organisation-and-design-v4.pdf
+│   │   ├── cs-app-v3.pdf
+│   │   └── operating-systems-three-easy-pieces.pdf
+│   ├── config.json
+│   ├── dochub.sh
+│   ├── LICENSE
+│   ├── Linux
+│   │   ├── linux-kernel-development.pdf
+│   │   └── the-linux-command-line-complete-introduction-v2.pdf
+│   ├── Lua
+│   │   └── programming-in-lua-v4.pdf
+│   ├── readme.md
+│   ├── snuc-cse-core-syllabus.pdf
+│   └── snuc-cse-cs-syllabus.pdf
+├── Github
+│   └── cobra-r9
+│       ├── BSTExp -> ../../C/BSTExp/
+│       ├── Caesar-1 -> ../../C/Caesar-1/
+│       ├── cobra-r9
+│       │   ├── LICENSE
+│       │   └── readme.md
+│       ├── CTemplate -> ../../C/CTemplate/
+│       ├── Dochub -> ../../Dochub/
+│       ├── Init87 -> ../../C/Init87/
+│       └── WAVSpec -> ../../C/WAVSpec/
+├── Lua
+│   └── Luafication-1
+│       ├── basics
+│       │   ├── dofile
+│       │   │   ├── mainfile.lua
+│       │   │   └── matlib1.lua
+│       │   ├── factorial.lua
+│       │   ├── hello.lua
+│       │   └── tables
+│       │       ├── bspwm
+│       │       │   ├── bspc.lua
+│       │       │   └── config.lua
+│       │       ├── construction.lua
+│       │       └── unpack.lua
+│       ├── LICENSE
+│       └── readme.md
