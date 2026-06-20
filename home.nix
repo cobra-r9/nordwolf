@@ -32,7 +32,6 @@
     ./modules/geany.nix 
     ./modules/fastfetch.nix 
     ./modules/nvim.nix 
-    ./modules/plank.nix 
     ./modules/ranger.nix 
     ./modules/rofi.nix 
     ./modules/vicinae.nix
