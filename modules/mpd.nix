@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   services.mpd = {
-    enable = false;
+    enable = true;
     musicDirectory = config.xdg.userDirs.music;
     dataDir = "${config.home.homeDirectory}/.local/share/mpd";
 
