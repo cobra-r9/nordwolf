@@ -95,8 +95,8 @@ section "Local Symlinks"
 _link_verified "$INSTALLER/local-linker.sh"
 
 section "Set Wallpaper"
-mkdir -p "$HOME/Pictures/Wallpapers"
-cp -r "$NORDWOLF/assets/wild.png" "$HOME/Pictures/Wallpapers/wild.png"
+mkdir -p "$HOME/Pictures"
+cp -r "$NORDWOLF/assets/Wallpapers" "$HOME/Pictures/Wallpapers"
 bash "$HOME/.config/nordwolf/config/bspwm/apps/wallpicker/generate-cache.sh" "$HOME/.config/nordwolf/config/bspwm/apps/wallpicker"
 bash "$HOME/.config/nordwolf/config/bspwm/apps/wallpicker/set-wallpaper.sh" "$HOME/Pictures/Wallpapers/wild.png"
 
