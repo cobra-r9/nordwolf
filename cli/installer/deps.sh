@@ -38,7 +38,7 @@ PACMAN_DEPS=(
     quickshell fzf ripgrep fd nvim
 
     # for the purpose of nvim
-    luarocks lazygit clang
+    luarocks lazygit clang fisher
 
     # dunst : not required any more
     # dunst archcraft-dunst-icons
