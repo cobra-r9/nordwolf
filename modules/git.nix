@@ -42,32 +42,4 @@
 
   # setup the github via ssh. 
   # nix will install ssh for this purpose, additionally, we can specify it in home.pkgs 
-  programs.ssh = {
-    # enables ssh in nix
-    enable = true;
-    enableDefaultConfig = false;
-
-    # match the block in user@<block here>:.... while loggin in via ssh
-    settings = {
-      # this one matches git@learn:
-      "learn" = {
-        # hostname is github.com
-        Hostname = "ssh.github.com";
-        # this is the only user github allows while logging in via ssh
-        User = "git";
-        Port = 443;
-        # ssh key generated and configured via ssh-keygen or github-cli        
-        IdentityFile = "~/.ssh/github_personal";
-        AddressFamily = "inet";
-      };
-      # this one is for another identity
-      "build" = {
-        Hostname = "ssh.github.com";
-        User = "git";
-        Port = 443;
-        IdentityFile = "~/.ssh/github_work";
-        AddressFamily = "inet";
-      };
-    };
-  };
 }
