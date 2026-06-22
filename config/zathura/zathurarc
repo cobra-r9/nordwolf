@@ -2,27 +2,23 @@
 set recolor                  true
 set recolor-keephue          false
 set recolor-darkcolor        "#FFFFFF"
-set recolor-lightcolor       "#000000"
+set recolor-lightcolor       "#2d333f"
 
 # --- Appearance ---
 set font                     "JetBrains Mono 11"
-set default-bg               "#000000"
+set default-bg               "#2d333f"
 set default-fg               "#FFFFFF"
-set statusbar-bg             "#000000"
-set statusbar-fg             "#FFFFFF"
-set inputbar-bg              "#000000"
-set inputbar-fg              "#FFFFFF"
-set highlight-color          "#FF0000"
-set highlight-active-color   "#00FF00"
-set completion-bg            "#000000"
+set statusbar-bg             "#252a34"
+set statusbar-fg             "#5e81ac"
+set inputbar-bg              "#252a34"
+set inputbar-fg              "#88c0d0"
+set completion-bg            "#2d333f"
 set completion-fg            "#FFFFFF"
-set completion-highlight-bg  "#000000"
-set completion-highlight-fg  "#00FFFF"
-set notification-bg          "#000000"
+set notification-bg          "#2d333f"
 set notification-fg          "#FFFFFF"
-set notification-error-bg    "#000000"
+set notification-error-bg    "#2d333f"
 set notification-error-fg    "#FF0000"
-set notification-warning-bg  "#000000"
+set notification-warning-bg  "#2d333f"
 set notification-warning-fg  "#00FFFF"
 
 # --- Behaviour ---
