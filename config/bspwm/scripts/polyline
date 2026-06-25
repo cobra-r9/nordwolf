@@ -8,6 +8,9 @@ if [[ "$target" == "main" ]]; then
     if [[ "$(cat /tmp/polyline.main.state)" == "on" ]]; then
         pgrep -a polybar | grep "main" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "off" >/tmp/polyline.main.state
         bspc config top_padding 0
+    elif [[ "$(cat /tmp/polyline.main.state)" == "disabled" ]]; then
+        polybar -c "$configfile" main >/dev/null 2>&1 &
+        echo "on" >/tmp/polyline.main.state
     else
         pgrep -a polybar | grep "main" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "on" >/tmp/polyline.main.state
     fi
@@ -15,6 +18,10 @@ else
     if [[ "$(cat /tmp/polyline.status.state)" == "on" ]]; then
         pgrep -a polybar | grep "status" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "off" >/tmp/polyline.status.state
         bspc config bottom_padding 0
+    elif [[ "$(cat /tmp/polyline.status.state)" == "disabled" ]]; then
+        #turn it on if it is uninitialised (first call. )
+        polybar -c "$configfile" status >/dev/null 2>&1 &
+        echo "on" >/tmp/polyline.status.state
     else
         pgrep -a polybar | grep "status" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "on" >/tmp/polyline.status.state
     fi

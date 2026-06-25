@@ -1,10 +1,9 @@
 #!/bin/bash
 
-polybar -c ~/.config/bspwm/widgets/polybar/config.ini main &
+polybar -c ~/.config/bspwm/widgets/polybar/config.ini main >/dev/null 2>&1 &
+
+# enable only the main line for now.
 echo "on" >/tmp/polyline.main.state
-polybar -c ~/.config/bspwm/widgets/polybar/config.ini status &
-sleep 0.5
-bspc config bottom_padding 0
-sleep 0.5
-pgrep -a polybar | grep "status" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle
-echo "off" >/tmp/polyline.status.state
+
+# disable the status line and enable it in lazy mode (first toggle of polyline )
+echo "disabled" >/tmp/polyline.status.state
