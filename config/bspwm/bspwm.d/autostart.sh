@@ -54,5 +54,5 @@ bspfloat &
 
 # ── Widget bars ────────────────────────────────────────────────────────────────
 # No bars. just terminals. lol
-[[ $is_widget == true ]] && polybar -c "$BSPDIR/widgets/polybar/config.ini"
+[[ $is_widget == true ]] && polybar -c "$BSPDIR/widgets/polybar/config.ini" main
 ##---------------------------------------- Manager Scripts : All those use bspc subscribe to bring about some action----------------------------
