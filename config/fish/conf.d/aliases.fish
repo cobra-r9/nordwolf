@@ -14,11 +14,11 @@ else
 end
 
 alias grep='grep --color=auto'
-alias cdir='cd ~/Workspace/C'
+alias cdir='cd ~/Workspace/c'
 alias git_downloads='cd ~/Downloads/Git'
 alias btop='btop --force-utf'
 alias workspace='cd ~/Workspace'
-alias github='cd ~/Workspace/Github'
+alias github='cd ~/Workspace/github'
 alias startx='startx > /dev/null 2>&1'
 
 # git aliases
