@@ -53,7 +53,7 @@
         {
             "type": "os",
             "key": "{#1;38;5;6}│ {#1;38;5;1} OS{#}",
-            "format": "{name} {version} {architecture}"
+            "format": "{name} {version}"
         },
 
         // info "$(color 6)│ $(color 2) KER" kernel
@@ -170,19 +170,9 @@
         // prin "$(color 7)　　　　　　　　　　　I $(color 1)Nix $(color 7)Arch"
         {
             "type": "custom",
-            "format": "{#1;38;5;7}　　　　　　　　　　　I {#1;38;5;1}Nix {#1;38;5;7}Arch{#}"
+            "format": "{#1;38;5;7}              I {#1;38;5;1}Nix {#1;38;5;7}Arch{#}"
         },
 
-        // info cols
-        // color_blocks="off" globally, but explicitly invoked via "info cols"
-        // block_width=3, block_range=(0 15), block_height=1
-        {
-            "type": "colors",
-            "block": {
-                "width": 3,
-                "range": [0, 15]
-            }
-        }
     ]
 }
 
