@@ -188,6 +188,9 @@ super + shift + F1
 
 super + space
     vicinae toggle
+
+super + d
+    dmenu_run -b -fn 'JetBrainsMono Nerd Font-11' -nb '#252a34' -nf '#586292' -sb '#3b4252' -sf '#c2c9d4'
     
 super + x
     vicinae deeplink vicinae://launch/clipboard/history

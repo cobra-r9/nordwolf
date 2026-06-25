@@ -15,5 +15,11 @@
          "name": "nord",
          "icon_theme": "Nordic-darker"
       }
+   },
+   "launcher_window": {
+      "client_side_decorations": {
+         "enabled": false,
+         "rounding": 0
+      }
    }
 }

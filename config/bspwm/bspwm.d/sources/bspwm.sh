@@ -19,7 +19,7 @@ bspwm_borders_normal_color=${normal_color:-'#ffffff'}
 bspwm_borders_style='solid'
 
 # set the border width
-bspwm_borders_width=2
+bspwm_borders_width=1
 
 ##################################################### MONOCLE ############################################
 
