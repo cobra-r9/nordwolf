@@ -102,8 +102,8 @@ done
 
 ############################# vicinae, toml-gui position, etc #######################################
 
-bspc rule -a vicinae state=floating follow=on focus=on
-bspc rule -a command state=floating follow=on focus=on
+bspc rule -a vicinae state=floating follow=on focus=on rectangle=770x480+298+292
+bspc rule -a command state=floating follow=on focus=on rectangle=770x480+298+292
 
 ############################## General Rules #########################################
 
