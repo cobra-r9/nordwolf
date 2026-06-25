@@ -1,20 +1,15 @@
 return {
     {
-        "gbprod/nord.nvim",
+        "rmehri01/onenord.nvim",
         lazy = false,
         priority = 1000,
         config = function()
-            require("nord").setup({})
-            vim.cmd.colorscheme("nord")
-        end,
-    },
-    {
-        "alexvzyl/nordic.nvim",
-        lazy = false,
-        priority = 1000,
-        config = function()
-            require("nordic").setup({})
-            vim.cmd.colorscheme("nordic")
+            require("onenord").setup({
+                options = {
+                    transparent = true;
+                },
+            })
+            vim.cmd.colorscheme("onenord")
         end,
     },
     
@@ -22,7 +17,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "onenord",
     },
   },
 }
