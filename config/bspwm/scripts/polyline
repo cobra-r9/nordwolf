@@ -1,0 +1,21 @@
+#!/bin/bash
+
+target="${1:-status}"
+polydir="$HOME/.config/bspwm/widgets/polybar"
+configfile="$polydir/config.ini"
+
+if [[ "$target" == "main" ]]; then
+    if [[ "$(cat /tmp/polyline.main.state)" == "on" ]]; then
+        pgrep -a polybar | grep "main" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "off" >/tmp/polyline.main.state
+        bspc config top_padding 0
+    else
+        pgrep -a polybar | grep "main" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "on" >/tmp/polyline.main.state
+    fi
+else
+    if [[ "$(cat /tmp/polyline.status.state)" == "on" ]]; then
+        pgrep -a polybar | grep "status" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "off" >/tmp/polyline.status.state
+        bspc config bottom_padding 0
+    else
+        pgrep -a polybar | grep "status" | awk '{print $1}' | xargs -I {} polybar-msg -p {} cmd toggle && echo "on" >/tmp/polyline.status.state
+    fi
+fi
