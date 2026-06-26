@@ -2,5 +2,4 @@ __pycache__/
 *.pyc 
 *.pyo
 *.pyd
-config/mpd/log 
-config/mpd/state
+
