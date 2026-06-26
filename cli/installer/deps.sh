@@ -29,7 +29,7 @@ PACMAN_DEPS=(
     fastfetch openbsd-netcat pacman-contrib
     # bars
     quickshell fzf ripgrep fd nvim
-    filezilla polybar
+    filezilla polybar viewnior
 
     # for the purpose of nvim
     luarocks lazygit clang fisher
