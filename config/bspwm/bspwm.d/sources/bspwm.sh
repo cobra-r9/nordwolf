@@ -62,7 +62,7 @@ bspwm_window_sr_ratio=0.5
 is_bspwm_borders=true
 
 # is bspwm showing presel feedback?
-is_bspwm_presel=true
+is_bspwm_presel=false
 
 # is bspwm set to automatic scheme?
 is_bspwm_scheme_automatic=true
