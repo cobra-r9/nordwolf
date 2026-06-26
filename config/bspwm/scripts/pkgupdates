@@ -1,0 +1,28 @@
+#!/bin/bash
+
+target="${1:-total}"
+
+# count the updates
+# for arch repo
+pacupdates=$(checkupdates 2>/dev/null | wc -l)
+# for arch user repo
+aurupdates=$(yay -Qum 2>/dev/null | wc -l)
+
+# check if exists and set zero if not.
+if [[ ! "$pacupdates" ]]; then
+    pacupdates=0
+fi
+if [[ ! "$aurupdates" ]]; then
+    aurupdates=0
+fi
+
+# count the total updates
+updates=$((pacupdates + aurupdates))
+
+if [[ "$target" == "pacman" ]]; then
+    echo "$pacupdates"
+elif [[ "$target" == "aur" ]]; then
+    echo "$aurupdates"
+else
+    echo "$updates"
+fi
