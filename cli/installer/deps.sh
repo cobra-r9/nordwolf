@@ -17,14 +17,7 @@ RST='\033[0m'
 # ── Header ────────────────────────────────────────────────────────────────────
 header() {
     clear
-    echo -e "${PRP}"
-    echo -e "  ░█████╗░███████╗██╗░░░██╗██╗░░░██╗███╗░░░███╗"
-    echo -e "  ██╔══██╗██╔════╝██║░░░██║██║░░░██║████╗░████║"
-    echo -e "  ███████║█████╗░░╚██╗░██╔╝██║░░░██║██╔████╔██║"
-    echo -e "  ██╔══██║██╔══╝░░░╚████╔╝░██║░░░██║██║╚██╔╝██║"
-    echo -e "  ██║░░██║███████╗░░╚██╔╝░░╚██████╔╝██║░╚═╝░██║"
-    echo -e "  ╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═════╝░╚═╝░░░░╚═╝${RST}"
-    echo -e "  ${DIM}<<shell — dependency manager @ bspwm >>${RST}"
+    echo -e "  ${DIM}<<dependency manager @ bspwm >>${RST}"
     echo -e "  ${DIM}──────────────────────────────────────────${RST}"
     echo ""
 }
@@ -33,9 +26,10 @@ header() {
 PACMAN_DEPS=(
     # essentials
     bspwm sxhkd picom xorg-xsetroot ksuperkey
-    fastfetch openbsd-netcat
+    fastfetch openbsd-netcat pacman-contrib
     # bars
     quickshell fzf ripgrep fd nvim
+    filezilla polybar
 
     # for the purpose of nvim
     luarocks lazygit clang fisher
@@ -44,7 +38,7 @@ PACMAN_DEPS=(
     # dunst archcraft-dunst-icons
 
     # install # tui zathura, gui atril
-    zathura atril zathura-pdf-mupdf
+    zathura zathura-pdf-mupdf
     dunst
 
     # terminal things

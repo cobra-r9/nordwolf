@@ -195,6 +195,9 @@ super + d
 super + s
     polyline
 
+super + shift + s
+    polyline main
+
 super + x
     vicinae deeplink vicinae://launch/clipboard/history
 
