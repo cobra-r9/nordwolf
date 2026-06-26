@@ -34,8 +34,7 @@ PACMAN_DEPS=(
     # for the purpose of nvim
     luarocks lazygit clang fisher
 
-    # dunst : not required any more
-    # dunst archcraft-dunst-icons
+    maim
 
     # install # tui zathura, gui
     zathura zathura-pdf-mupdf
