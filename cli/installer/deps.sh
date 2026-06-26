@@ -37,7 +37,7 @@ PACMAN_DEPS=(
     # dunst : not required any more
     # dunst archcraft-dunst-icons
 
-    # install # tui zathura, gui atril
+    # install # tui zathura, gui
     zathura zathura-pdf-mupdf
     dunst
 
