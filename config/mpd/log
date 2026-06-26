@@ -1,0 +1,14 @@
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-06-26T12:08:09 player: played "Papaoutai - Afro Soul.mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-06-26T12:11:37 player: played "Cool For The Summer - Hardstyle Slowed.mp3"
+2026-06-26T12:13:25 update: updating /Cool For The Summer - Hardstyle Slowed.mp3
+2026-06-26T12:13:25 update: updating /Papaoutai - Afro Soul.mp3
+2026-06-26T12:14:07 player: played "Cool For The Summer - Hardstyle Slowed.mp3"
+2026-06-26T12:14:34 player: played "Papaoutai - Afro Soul.mp3"
+2026-06-26T12:21:19 output: Failed to play on "PipeWire Audio" (pipewire): no target node available
+2026-06-26T12:21:19 exception: Failed to open audio output
+2026-06-26T12:22:10 player: played "Papaoutai - Afro Soul.mp3"
+2026-06-26T12:30:15 player: played "Cool For The Summer - Hardstyle Slowed.mp3"
