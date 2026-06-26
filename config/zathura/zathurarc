@@ -23,8 +23,8 @@ set notification-warning-fg  "#00FFFF"
 
 # --- Behaviour ---
 set selection-clipboard      clipboard
-set scroll-step              50
-set zoom-step                10
+set scroll-step              25
+set zoom-step                5
 set render-loading           true
 
 # --- Arrow key navigation ---

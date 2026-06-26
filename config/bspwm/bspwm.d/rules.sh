@@ -14,7 +14,6 @@ declare -a office=(
     libreoffice-impress
     libreoffice-startcenter
     libreoffice
-    Zathura
     Soffice
     *:libreofficedev
     *:soffice
