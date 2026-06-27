@@ -228,8 +228,6 @@ alt + Delete + s
 alt + Delete + r
     systemctl reboot
 
-alt + Delete + l
-    bspc quit
 
 alt + F4
     rofi_powermenu
