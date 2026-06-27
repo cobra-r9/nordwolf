@@ -12,7 +12,7 @@ source "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
 systemctl --user import-environment QT_QPA_PLATFORMTHEME QT_STYLE_OVERRIDE
 # ── Kill existing instances ───────────────────────────────────────────────────
 killall -9 xsettingsd sxhkd dunst ksuperkey xfce4-power-manager \
-    bspc polybar quickshell qs snapserver picom tor vicinae plank
+    bspc polybar quickshell qs snapserver picom tor vicinae plank pomod
 
 # ── Polkit agent ──────────────────────────────────────────────────────────────
 [[ ! $(pidof xfce-polkit) ]] && /usr/lib/xfce-polkit/xfce-polkit &
@@ -32,6 +32,8 @@ xsetroot -cursor_name left_ptr
 
 # ── MPD ───────────────────────────────────────────────────────────────────────
 [[ $is_svc_mpd == true ]] && systemctl --user start mpd &
+
+[[ $is_svc_pomod == true ]] && pomod &
 
 # ── Wallpaper ─────────────────────────────────────────────────────────────────
 feh --bg-fill "$wall_wallpaper"
