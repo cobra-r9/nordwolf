@@ -1,6 +1,7 @@
 #!/bin/bash
 
 result=$(pomoc status time 2>/dev/null)
+active=$(pomoc status active 2>/dev/null)
 if [[ ! "$result" ]]; then
     echo ""
 else
@@ -9,7 +10,7 @@ else
         echo "$result" | sed 's/\([0-9]*\):\([0-9]*\)/\1m \2s/'
 
     if [[ "$result" == "00:00" || "$result" = "00:00:00" ]]; then
-        notify-send "Pomodoro Client" "Your $(pomoc status active) period has end." -u "critical" -t "5000" &
+        notify-send "Pomodoro Client : $active" "Your $active period has end." -u "critical" -t "5000" &
         timeout 5 paplay /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga &
     fi
 fi
