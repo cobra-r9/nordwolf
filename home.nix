@@ -39,5 +39,7 @@
     ./modules/git.nix
     ./modules/zathura.nix
     ./modules/mpd.nix
+    ./modules/rmpc.nix
+    ./modules/pomoc.nix
   ];
 }
