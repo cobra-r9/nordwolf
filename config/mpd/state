@@ -1,7 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Audio
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 15
+time: 18.774
 random: 0
 repeat: 1
 single: 0
@@ -11,4 +13,49 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
+0:REVENGE - Super Slowed - 1HXSX, wnorg17.mp3
+1:I Am What The World Forged - A5omic.mp3
+2:Manasha - Over Slowed - Ashreveal, Ashish Swargiary.mp3
+3:SI AI AI - BLOODTHXRN, KUKURUZ.mp3
+4:SI AI AI - Slowed - BLOODTHXRN, KUKURUZ.mp3
+5:SI AI AI - Ultra Slowed - BLOODTHXRN, KUKURUZ.mp3
+6:MONTAGEM RITMADA - cape, MXSTERIXD.mp3
+7:MY DESTINY HARDTEKK - SLOWED - conqr, RADIXNT.mp3
+8:It's in your eyes - Deepierro.mp3
+9:FUNK ABNORMAL - DJ V12, SXID.mp3
+10:FUNK ABNORMAL - SLOWED - DJ V12, SXID.mp3
+11:FUNK ABNORMAL - SUPER SLOWED - DJ V12, SXID.mp3
+12:FUNK ABNORMAL - ULTRA SLOWED - DJ V12, SXID.mp3
+13:Papaoutai - Instrumental - dopuu.mp3
+14:DARK ARIA - Enmity, crypvolk.mp3
+15:Cool For The Summer - Slowed - Enmity, LXMINAL.mp3
+16:Hot & Cold - Slowed - Enmity, LXMINAL.mp3
+17:HOT GIRL BUMMER X HARDTEKK (Super Slowed) - floorage.mp3
+18:VOCE NA MIRA - Slowed - Hwungii, DJ VGK1.mp3
+19:Living Life, in the Night - KNOX.mp3
+20:Whoopty Phonk! - KYDO, MATH PHONK.mp3
+21:Summertime - Imanbek Remix - Lana Del Rey, Imanbek.mp3
+22:Papaoutai - Afro Soul - mikeeysmind, Chill77, Unjaps.mp3
+23:House of Memories - Panic! At The Disco.mp3
+24:House of Memories - Slowed Down Version - Panic! At The Disco.mp3
+25:TIKI TIKI - Slowed - QMIIR, SALIMA CHICA.mp3
+26:MONTAGEM PEGADORA - Slowed - Rubikdice, Chilx, WAA.mp3
+27:MONTAGEM PEGADORA - Ultra Slowed - Rubikdice, Chilx, WAA.mp3
+28:Dhurandhar - Title Track - Shashwat Sachdev.mp3
+29:nightmares - skyfall beats.mp3
+30:Beggin' - T3NZU.mp3
+31:Call Me Now - T3NZU.mp3
+32:Living Life, In The Night - T3NZU.mp3
+33:No Lie - slowed to perfection - T3NZU.mp3
+34:Polozhenie - T3NZU.mp3
+35:Where Are You Now - T3NZU.mp3
+36:ACIDO III - Slowed - UdieNnx, Mc Denny.mp3
+37:Feel So Close - Slowed - Whito, Enmity, Moorsy, Lyck.mp3
+38:NO BATID├ГO - Slowed - ZXKAI, slxughter.mp3
+39:Dead Inside - ╨Р╨Ф╨Ы╨Ш╨Э.mp3
+40:MONTAGEM PEGADORA - khaliey.mp3
+41:Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
+42:Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
+43:Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
+44:Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
 playlist_end
