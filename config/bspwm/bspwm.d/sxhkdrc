@@ -233,6 +233,12 @@ alt + F4
     rofi_powermenu
 
 
-################ YAD Windows ####################################################
+################ POMOC SHORTCUTS ####################################################
+
+Pause
+    pomoc toggle
+
+shift + Pause
+    pomoc end
 
 
