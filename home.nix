@@ -39,6 +39,5 @@
     ./modules/git.nix
     ./modules/zathura.nix
     ./modules/mpd.nix
-    ./modules/ncmpcpp.nix
   ];
 }
