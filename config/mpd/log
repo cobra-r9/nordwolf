@@ -72,3 +72,54 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-06-29T18:27:16 player: played "Cool for the Summer (hardstyle remix + slowed).mp3"
 2026-06-29T18:28:45 player: played "Cool for the Summer (hardstyle remix + slowed).mp3"
 2026-06-29T18:33:36 player: played "Cool for the Summer (hardstyle remix + slowed).mp3"
+2026-06-29T20:04:27 update: removing Cool for the Summer (hardstyle remix + slowed).mp3
+2026-06-29T20:06:08 update: added /Beggin' - T3NZU.mp3
+2026-06-29T20:06:08 update: added /Call Me Now - T3NZU.mp3
+2026-06-29T20:06:08 update: added /Living Life, In The Night - T3NZU.mp3
+2026-06-29T20:06:08 update: added /Dead Inside - ╨Р╨Ф╨Ы╨Ш╨Э.mp3
+2026-06-29T20:06:08 update: added /Dhurandhar - Title Track - Shashwat Sachdev.mp3
+2026-06-29T20:06:08 update: added /Whoopty Phonk! - KYDO, MATH PHONK.mp3
+2026-06-29T20:06:08 update: added /nightmares - skyfall beats.mp3
+2026-06-29T20:06:08 update: added /NO BATID├ГO - Slowed - ZXKAI, slxughter.mp3
+2026-06-29T20:06:08 update: added /No Lie - slowed to perfection - T3NZU.mp3
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-29T20:06:08 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-29T20:06:08 update: added /Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
+2026-06-29T20:06:08 update: added /Living Life, in the Night - KNOX.mp3
+2026-06-29T20:06:08 update: added /MONTAGEM PEGADORA - Slowed - Rubikdice, Chilx, WAA.mp3
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-29T20:06:09 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:guess_freeformat_framesize():744] error: Cannot look for freeformat frame size with non-seekable and non-buffered stream!
+2026-06-29T20:06:09 update: added /MONTAGEM PEGADORA - khaliey.mp3
+2026-06-29T20:06:09 update: added /MONTAGEM PEGADORA - Ultra Slowed - Rubikdice, Chilx, WAA.mp3
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-29T20:06:09 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-29T20:06:09 update: added /Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
+2026-06-29T20:06:09 update: added /Polozhenie - T3NZU.mp3
+2026-06-29T20:06:09 update: added /REVENGE - Super Slowed - 1HXSX, wnorg17.mp3
+2026-06-29T20:06:09 update: added /ACIDO III - Slowed - UdieNnx, Mc Denny.mp3
+2026-06-29T20:06:09 update: added /FUNK ABNORMAL - SLOWED - DJ V12, SXID.mp3
+2026-06-29T20:06:09 update: added /FUNK ABNORMAL - ULTRA SLOWED - DJ V12, SXID.mp3
+2026-06-29T20:06:09 update: added /FUNK ABNORMAL - SUPER SLOWED - DJ V12, SXID.mp3
+2026-06-29T20:06:09 update: added /FUNK ABNORMAL - DJ V12, SXID.mp3
+2026-06-29T20:06:09 update: added /SI AI AI - Slowed - BLOODTHXRN, KUKURUZ.mp3
+2026-06-29T20:06:09 update: added /It's in your eyes - Deepierro.mp3
+2026-06-29T20:06:09 update: added /MONTAGEM RITMADA - cape, MXSTERIXD.mp3
+2026-06-29T20:06:09 update: added /Papaoutai - Instrumental - dopuu.mp3
+2026-06-29T20:06:09 update: added /Papaoutai - Afro Soul - mikeeysmind, Chill77, Unjaps.mp3
+2026-06-29T20:06:09 update: added /HOT GIRL BUMMER X HARDTEKK (Super Slowed) - floorage.mp3
+2026-06-29T20:06:09 update: added /Cool For The Summer - Slowed - Enmity, LXMINAL.mp3
+2026-06-29T20:06:09 update: added /Feel So Close - Slowed - Whito, Enmity, Moorsy, Lyck.mp3
+2026-06-29T20:06:09 update: added /I Am What The World Forged - A5omic.mp3
+2026-06-29T20:06:09 update: added /MY DESTINY HARDTEKK - SLOWED - conqr, RADIXNT.mp3
+2026-06-29T20:06:09 update: added /Hot & Cold - Slowed - Enmity, LXMINAL.mp3
+2026-06-29T20:06:09 update: added /DARK ARIA - Enmity, crypvolk.mp3
+2026-06-29T20:06:09 update: added /House of Memories - Panic! At The Disco.mp3
+2026-06-29T20:06:09 update: added /House of Memories - Slowed Down Version - Panic! At The Disco.mp3
+2026-06-29T20:06:09 update: added /Manasha - Over Slowed - Ashreveal, Ashish Swargiary.mp3
+2026-06-29T20:06:09 update: added /SI AI AI - BLOODTHXRN, KUKURUZ.mp3
+2026-06-29T20:06:09 update: added /SI AI AI - Ultra Slowed - BLOODTHXRN, KUKURUZ.mp3
+2026-06-29T20:06:09 update: added /Summertime - Imanbek Remix - Lana Del Rey, Imanbek.mp3
+2026-06-29T20:06:09 update: added /TIKI TIKI - Slowed - QMIIR, SALIMA CHICA.mp3
+2026-06-29T20:06:09 update: added /VOCE NA MIRA - Slowed - Hwungii, DJ VGK1.mp3
+2026-06-29T20:06:09 update: added /Where Are You Now - T3NZU.mp3
