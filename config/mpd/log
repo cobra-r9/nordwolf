@@ -56,3 +56,14 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-06-29T10:45:50 player: played "Cool For The Summer - Hardstyle Slowed.mp3"
 2026-06-29T10:47:42 player: played "Cool For The Summer - Hardstyle Slowed.mp3"
 2026-06-29T10:54:00 player: played "Cool For The Summer - Hardstyle Slowed.mp3"
+2026-06-29T11:58:35 update: removing Papaoutai - Afro Soul.mp3
+2026-06-29T11:58:35 exception: Failed to decode "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3"; Failed to open "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3": No such file or directory
+2026-06-29T11:58:35 update: removing Cool For The Summer - Hardstyle Slowed.mp3
+2026-06-29T11:58:35 exception: Failed to decode "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3"; Failed to open "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3": No such file or directory
+2026-06-29T11:58:40 exception: No such song
+2026-06-29T11:58:40 exception: No such song
+2026-06-29T11:58:44 exception: Failed to decode "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3"; Failed to open "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3": No such file or directory
+2026-06-29T11:58:44 player: played "Cool For The Summer - Hardstyle Slowed.mp3"
+2026-06-29T11:58:44 exception: Failed to decode "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3"; Failed to open "/home/cobra/Music/Cool For The Summer - Hardstyle Slowed.mp3": No such file or directory
+2026-06-29T11:59:05 exception: No such song
+2026-06-29T11:59:05 exception: No such song

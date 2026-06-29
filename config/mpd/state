@@ -1,9 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Audio
 audio_device_state:1:my_fifo
-state: pause
+state: stop
 current: 0
-time: 9.375
 random: 0
 repeat: 1
 single: 0
@@ -14,7 +13,4 @@ mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
 0:Cool For The Summer - Hardstyle Slowed.mp3
-1:Papaoutai - Afro Soul.mp3
-2:Cool For The Summer - Hardstyle Slowed.mp3
-3:Papaoutai - Afro Soul.mp3
 playlist_end
