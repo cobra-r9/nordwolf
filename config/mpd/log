@@ -126,3 +126,204 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-06-29T23:16:49 player: played "Cool For The Summer - Slowed - Enmity, LXMINAL.mp3"
 2026-06-30T08:35:05 player: played "Cool For The Summer - Slowed - Enmity, LXMINAL.mp3"
 2026-06-30T08:50:11 player: played "Cool For The Summer - Slowed - Enmity, LXMINAL.mp3"
+2026-06-30T09:03:59 output: Failed to send tag to "PipeWire Audio" (pipewire): no target node available
+2026-06-30T09:03:59 output: Failed to play on "PipeWire Audio" (pipewire): no target node available
+2026-06-30T09:07:27 player: played "House of Memories - Panic! At The Disco.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:16 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:16 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:16 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:26:17 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:18 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:18 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:26:18 player: played "Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:18 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:18 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:26:19 player: played "Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:19 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:26:20 player: played "Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:42 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:26:42 mad: input does not appear to be a mp3 bit stream
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:42 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:guess_freeformat_framesize():744] error: Cannot look for freeformat frame size with non-seekable and non-buffered stream!
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:58 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:59 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:26:59 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:26:59 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:00 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:00 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:00 player: played "Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:00 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:00 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:01 player: played "Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:02 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:02 player: played "Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+2026-06-30T09:27:25 player: played "REVENGE - Super Slowed - 1HXSX, wnorg17.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:43 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:43 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:43 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:44 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:44 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:44 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:44 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:45 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:45 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:46 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:46 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:46 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:47 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:47 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:47 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:48 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:48 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:49 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:49 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:49 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:49 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:50 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:50 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:51 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:51 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:51 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:52 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:52 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:52 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:53 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:53 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:54 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:54 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:54 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:54 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:55 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:55 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:56 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:56 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:27:56 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:27:57 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-30T09:28:26 update: updating /Beggin' - T3NZU.mp3
+2026-06-30T09:28:26 update: updating /Call Me Now - T3NZU.mp3
+2026-06-30T09:28:26 update: updating /Living Life, In The Night - T3NZU.mp3
+2026-06-30T09:28:26 update: updating /Dead Inside - ╨Р╨Ф╨Ы╨Ш╨Э.mp3
+2026-06-30T09:28:26 update: updating /Dhurandhar - Title Track - Shashwat Sachdev.mp3
+2026-06-30T09:28:26 update: updating /Whoopty Phonk! - KYDO, MATH PHONK.mp3
+2026-06-30T09:28:26 update: updating /nightmares - skyfall beats.mp3
+2026-06-30T09:28:26 update: updating /NO BATID├ГO - Slowed - ZXKAI, slxughter.mp3
+2026-06-30T09:28:26 update: updating /No Lie - slowed to perfection - T3NZU.mp3
+2026-06-30T09:28:26 update: updating /Living Life, in the Night - KNOX.mp3
+2026-06-30T09:28:26 update: updating /MONTAGEM PEGADORA - Slowed - Rubikdice, Chilx, WAA.mp3
+2026-06-30T09:28:26 update: updating /MONTAGEM PEGADORA - khaliey.mp3
+[src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-30T09:28:26 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+[src/libmpg123/parse.c:guess_freeformat_framesize():744] error: Cannot look for freeformat frame size with non-seekable and non-buffered stream!
+2026-06-30T09:28:26 update: updating /MONTAGEM PEGADORA - Ultra Slowed - Rubikdice, Chilx, WAA.mp3
+2026-06-30T09:28:26 update: updating /Polozhenie - T3NZU.mp3
+2026-06-30T09:28:26 update: updating /REVENGE - Super Slowed - 1HXSX, wnorg17.mp3
+2026-06-30T09:28:26 update: updating /ACIDO III - Slowed - UdieNnx, Mc Denny.mp3
+2026-06-30T09:28:26 update: updating /FUNK ABNORMAL - SLOWED - DJ V12, SXID.mp3
+2026-06-30T09:28:26 update: updating /FUNK ABNORMAL - ULTRA SLOWED - DJ V12, SXID.mp3
+2026-06-30T09:28:26 update: updating /FUNK ABNORMAL - SUPER SLOWED - DJ V12, SXID.mp3
+2026-06-30T09:28:26 update: updating /FUNK ABNORMAL - DJ V12, SXID.mp3
+2026-06-30T09:28:26 update: updating /SI AI AI - Slowed - BLOODTHXRN, KUKURUZ.mp3
+2026-06-30T09:28:26 update: updating /It's in your eyes - Deepierro.mp3
+2026-06-30T09:28:26 update: updating /MONTAGEM RITMADA - cape, MXSTERIXD.mp3
+2026-06-30T09:28:26 update: updating /Papaoutai - Instrumental - dopuu.mp3
+2026-06-30T09:28:26 update: updating /Papaoutai - Afro Soul - mikeeysmind, Chill77, Unjaps.mp3
+2026-06-30T09:28:26 update: updating /HOT GIRL BUMMER X HARDTEKK (Super Slowed) - floorage.mp3
+2026-06-30T09:28:26 update: updating /Cool For The Summer - Slowed - Enmity, LXMINAL.mp3
+2026-06-30T09:28:26 update: updating /Feel So Close - Slowed - Whito, Enmity, Moorsy, Lyck.mp3
+2026-06-30T09:28:26 update: updating /I Am What The World Forged - A5omic.mp3
+2026-06-30T09:28:26 update: updating /MY DESTINY HARDTEKK - SLOWED - conqr, RADIXNT.mp3
+2026-06-30T09:28:26 update: updating /Hot & Cold - Slowed - Enmity, LXMINAL.mp3
+2026-06-30T09:28:26 update: updating /DARK ARIA - Enmity, crypvolk.mp3
+2026-06-30T09:28:26 update: updating /House of Memories - Panic! At The Disco.mp3
+2026-06-30T09:28:26 update: updating /House of Memories - Slowed Down Version - Panic! At The Disco.mp3
+2026-06-30T09:28:26 update: updating /Manasha - Over Slowed - Ashreveal, Ashish Swargiary.mp3
+2026-06-30T09:28:26 update: updating /SI AI AI - BLOODTHXRN, KUKURUZ.mp3
+2026-06-30T09:28:26 update: updating /SI AI AI - Ultra Slowed - BLOODTHXRN, KUKURUZ.mp3
+2026-06-30T09:28:27 update: updating /Summertime - Imanbek Remix - Lana Del Rey, Imanbek.mp3
+2026-06-30T09:28:27 update: updating /TIKI TIKI - Slowed - QMIIR, SALIMA CHICA.mp3
+2026-06-30T09:28:27 update: updating /VOCE NA MIRA - Slowed - Hwungii, DJ VGK1.mp3
+2026-06-30T09:28:27 update: updating /Where Are You Now - T3NZU.mp3
+2026-06-30T09:28:27 update: removing Parano (feat. DDB) - slowed - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
+2026-06-30T09:28:27 update: removing Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3
+2026-06-30T09:28:36 exception: No such song
+2026-06-30T09:28:36 exception: No such song
+2026-06-30T09:28:38 player: played "Parano (feat. DDB) - ╤Д╤А╨╛╨╖╨╕, DDB.mp3"
+2026-06-30T09:33:55 exception: No such song
+2026-06-30T09:34:01 exception: No such song
+2026-06-30T09:34:26 exception: No such song
+2026-06-30T09:34:30 exception: No such song
+2026-06-30T09:34:39 exception: No such song
+2026-06-30T09:34:43 exception: No such song
+2026-06-30T09:35:40 exception: No such song
+2026-06-30T09:35:43 exception: No such song
+2026-06-30T09:36:05 exception: No such song
+2026-06-30T09:36:12 exception: No such song
+2026-06-30T09:36:23 exception: No such song
+2026-06-30T09:36:26 exception: No such song
+2026-06-30T09:36:37 exception: No such song
+2026-06-30T09:36:40 exception: No such song
+2026-06-30T09:36:48 exception: No such song
+2026-06-30T09:36:56 exception: No such song
+2026-06-30T09:38:10 exception: No such song
+2026-06-30T09:38:13 exception: No such song
+2026-06-30T09:38:28 exception: No such song
+2026-06-30T09:38:32 exception: No such song
+2026-06-30T09:38:39 exception: No such song
+2026-06-30T09:38:43 exception: No such song
+2026-06-30T09:40:51 player: played "Where Are You Now - T3NZU.mp3"
+2026-06-30T09:43:14 player: played "Beggin' - T3NZU.mp3"
+2026-06-30T09:51:37 player: played "Papaoutai - Afro Soul - mikeeysmind, Chill77, Unjaps.mp3"
+2026-06-30T09:54:36 player: played "Dhurandhar - Title Track - Shashwat Sachdev.mp3"
+2026-06-30T09:57:06 exception: No such song
+2026-06-30T09:57:09 exception: No such song
+2026-06-30T09:58:28 exception: No such song
+2026-06-30T09:58:33 exception: No such song
+2026-06-30T09:58:39 exception: No such song
+2026-06-30T09:58:44 exception: No such song
+2026-06-30T09:59:32 exception: No such song
+2026-06-30T09:59:35 exception: No such song
+2026-06-30T10:03:09 player: played "House of Memories - Panic! At The Disco.mp3"
+2026-06-30T10:05:22 player: played "Living Life, in the Night - KNOX.mp3"
+2026-06-30T10:10:08 player: played "House of Memories - Panic! At The Disco.mp3"
+2026-06-30T10:12:44 player: played "Dhurandhar - Title Track - Shashwat Sachdev.mp3"
+2026-06-30T10:16:12 player: played "House of Memories - Panic! At The Disco.mp3"
