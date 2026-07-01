@@ -17,7 +17,7 @@ RST='\033[0m'
 # ── Header ────────────────────────────────────────────────────────────────────
 header() {
     clear
-    echo -e "  ${DIM}<<dependency manager @ bspwm >>${RST}"
+    echo -e "  ${DIM}<<dependency manager @ nex >>${RST}"
     echo -e "  ${DIM}──────────────────────────────────────────${RST}"
     echo ""
 }
@@ -25,7 +25,7 @@ header() {
 # ── Deps ──────────────────────────────────────────────────────────────────────
 PACMAN_DEPS=(
     # essentials
-    bspwm sxhkd picom xorg-xsetroot ksuperkey
+    nex sxhkd picom xorg-xsetroot ksuperkey
     fastfetch openbsd-netcat pacman-contrib
     # bars
     quickshell fzf ripgrep fd nvim

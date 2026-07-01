@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Audio
 audio_device_state:1:my_fifo
-state: play
-current: 4
-time: 119.85300000000001
+state: pause
+current: 17
+time: 84.973
 random: 0
 repeat: 1
 single: 0
@@ -29,4 +29,6 @@ playlist_begin
 13:SI AI AI - BLOODTHXRN, KUKURUZ.mp3
 14:MONTAGEM RITMADA - cape, MXSTERIXD.mp3
 15:HOT GIRL BUMMER X HARDTEKK (Super Slowed) - floorage.mp3
+16:SEM CONTROLE - Slowed - nightfxrce.mp3
+17:SEM CONTROLE - Super Slowed - nightfxrce.mp3
 playlist_end

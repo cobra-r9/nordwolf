@@ -1,0 +1,18 @@
+#!/bin/bash
+#  ╔═╗╦╔═╗╔═╗╔╦╗  ╔═╗╔═╗╔╗╔╔═╗╦╔═╗
+#  ╠═╝║║  ║ ║║║║  ║  ║ ║║║║╠╣ ║║ ╦
+#  ╩  ╩╚═╝╚═╝╩ ╩  ╚═╝╚═╝╝╚╝╚  ╩╚═╝
+#
+#  RUDV-AR - 2026
+#  generate.sh — sources picom-settings.sh, builds picom.conf, restarts picom
+#  Usage: ./generate.sh
+#  Set as toml-gui reload command: $HOME/.config/picom/generate.sh
+
+PICOM_DIR="$HOME/.config/nex/nex.d/picom"
+
+# Restart picom
+pkill -x picom 2>/dev/null
+sleep 0.1
+picom --config "$PICOM_DIR/picom.conf" &
+
+echo "picom restarted — $PICOM_DIR/picom.conf"

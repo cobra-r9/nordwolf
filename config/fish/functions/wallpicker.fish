@@ -1,3 +1,3 @@
 function wallpicker
-	qs -p ~/.config/bspwm/apps/wallpicker/shell.qml
+	qs -p ~/.config/nex/apps/wallpicker/shell.qml
 end

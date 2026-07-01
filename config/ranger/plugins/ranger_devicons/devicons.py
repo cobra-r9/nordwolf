@@ -305,7 +305,7 @@ file_node_exact_matches = {
     '_vimrc'                           : '',
     'a.out'                            : '',
     'authorized_keys'                  : '',
-    'bspwmrc'                          : '',
+    'nexrc'                          : '',
     'cmakelists.txt'                   : '',
     'config'                           : '',
     'config.ac'                        : '',

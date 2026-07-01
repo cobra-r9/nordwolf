@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# nex directory
+DIR="$HOME/.config/nex"
+
+# rofi sudo askpass helper
+export SUDO_ASKPASS="$DIR"/scripts/rofi_askpass
+
+# execute the application
+sudo -A $1

@@ -1,0 +1,31 @@
+#!/bin/bash 
+
+####################### IMPORT THE EXPORTS ################################
+
+BSPDIRD="$HOME/.config/nex/nex.d"
+source "$BSPDIRD/monitor.sh"
+source "$BSPDIRD/config.sh"
+
+###################### COMMAND THE NEX ###################################
+
+#---------> set up the monitor : I use single monitor, so source from moitors.sh
+workspaces
+
+#---------> set up the configurations : Sourced from config.sh
+# configure the borders
+nexl_configure border
+# configure the windows
+nexl_configure windows
+# configure the scheme
+nexl_configure scheme 
+# configure the status prefix 
+nexl_configure status_prefix 
+# configure the monocle
+nexl_configure monocle 
+nexl config focus_follows_pointer "true"
+#---------> apply nexl rules from rules.sh 
+source "$BSPDIRD/rules.sh"
+
+#---------> start the applications from autostart.sh
+source "$BSPDIRD/autostart.sh"
+

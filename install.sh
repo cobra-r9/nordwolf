@@ -97,8 +97,8 @@ bash "$INSTALLER/local-linker.sh"
 section "Set Wallpaper"
 mkdir -p "$HOME/Pictures"
 cp -r "$NORDWOLF/assets/Wallpapers" "$HOME/Pictures/Wallpapers"
-bash "$HOME/.config/nordwolf/config/bspwm/apps/wallpicker/generate-cache.sh" "$HOME/.config/nordwolf/config/bspwm/apps/wallpicker"
-bash "$HOME/.config/nordwolf/config/bspwm/apps/wallpicker/set-wallpaper.sh" "$HOME/Pictures/Wallpapers/wild.png"
+bash "$HOME/.config/nordwolf/config/nex/apps/wallpicker/generate-cache.sh" "$HOME/.config/nordwolf/config/nex/apps/wallpicker"
+bash "$HOME/.config/nordwolf/config/nex/apps/wallpicker/set-wallpaper.sh" "$HOME/Pictures/Wallpapers/wild.png"
 
 # ── Done ──────────────────────────────────────────────────────────────────────
 echo ""

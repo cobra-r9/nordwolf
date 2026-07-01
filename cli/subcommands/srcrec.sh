@@ -237,7 +237,7 @@ echo ""
 
 # close any actions pane before recording beings in case it is called from the pane 
 
-qs -p ~/.config/bspwm/shell/rightpane/shell.qml ipc call rightpane close
+qs -p ~/.config/nex/shell/rightpane/shell.qml ipc call rightpane close
 progress_fifo=$(mktemp -u /tmp/srcrec_progress.XXXXXX)
 mkfifo "$progress_fifo"
 trap 'rm -f "$progress_fifo"; rm -f "$state_file"' EXIT

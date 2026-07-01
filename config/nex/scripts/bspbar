@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+
+# nex directory
+DIR="$HOME/.config/nex"
+
+# fix padding
+nexl config bottom_padding 0
+nexl config top_padding 0
+
+# launch polybar
+bash "$DIR"/themes/polybar.sh

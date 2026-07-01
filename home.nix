@@ -13,7 +13,7 @@
     ];
 
     activation.reloadBspwm = lib.hm.dag.entryAfter ["writeBoundary"] ''
-      /usr/bin/bspc wm -r;
+      /usr/bin/nexl wm -r;
     '';    
   };
 
@@ -29,7 +29,7 @@
     ./modules/fish.nix
     ./modules/btop.nix 
     ./modules/dunst.nix 
-    ./modules/bspwm.nix 
+    ./modules/nex.nix 
     ./modules/geany.nix 
     ./modules/fastfetch.nix 
     ./modules/nvim.nix 
