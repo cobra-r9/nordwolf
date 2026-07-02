@@ -4,21 +4,18 @@ result="$(nexl query -T -d | jq)"
 layout="$(echo $result | jq -r '.layout')"
 layout_variant="$(echo $result | jq -r '.layoutVariant')"
 
-echo "$layout"
-echo "$layout_variant"
-
 case "$layout" in
 "binary")
-    echo "󰕮"
+    echo "󰕮 bsp"
     ;;
 "monocle")
-    echo "󰆧"
+    echo "󰆧 mon"
     ;;
 "tall")
-    echo "󰕲"
+    echo "󰕲 tall"
     ;;
 "wide")
-    echo "󰕯"
+    echo "󰕯 wide"
     ;;
 *)
     echo ""
