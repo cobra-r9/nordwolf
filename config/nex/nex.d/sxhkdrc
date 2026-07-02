@@ -67,9 +67,6 @@ XF86Audio{Next,Prev,Play,Stop}
 
 ##---------- Bspwm ----------##
 
-# Hide/Unhide Window
-F8
-    bspwinmask
 
 # Close App
 super + {_,shift + }c
@@ -126,7 +123,18 @@ super + {h,v,q}
 super + ctrl + {1-9}
 	nexl node -o 0.{1-9}
 
-# Toggle Layout (Tiled/Monocle)
+
+# Hide/Unhide Window
+
+# Hide/Unhide Window
+F7
+    bspwinmask
+
+# just a generic command, adaptive based on layout
+F8
+    nexl node -F horizontal 
+
+# Toggle Layout (Binary/Monocle/Tall/Wide)
 F9
 	nexl desktop -l next
 
